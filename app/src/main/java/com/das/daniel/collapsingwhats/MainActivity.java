@@ -20,10 +20,10 @@ public class MainActivity extends AppCompatActivity {
 
         CollapsingToolbarLayout collapsingToolbarLayout=(CollapsingToolbarLayout) findViewById(R.id.collapse_toolbar);
         collapsingToolbarLayout.setTitle("María Perez");
-        
+
 
         Context context=this;
-        collapsingToolbarLayout.setCollapsedTitleTextColor(ContextCompat.getColor(context,R.color.colorBlanco));
+       // collapsingToolbarLayout.setCollapsedTitleTextColor(ContextCompat.getColor(context,R.color.colorNegro));
         collapsingToolbarLayout.setContentScrimColor(ContextCompat.getColor(context,R.color.colorPrimary));
     }
 }
