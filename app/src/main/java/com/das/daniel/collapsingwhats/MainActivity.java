@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         Context context=this;
-       // collapsingToolbarLayout.setCollapsedTitleTextColor(ContextCompat.getColor(context,R.color.colorNegro));
+       // collapsingToolbarLayout.setCollapsedTitleTextColor(ContextCompat.getColor(context,R.color.colorBlanco));
         collapsingToolbarLayout.setContentScrimColor(ContextCompat.getColor(context,R.color.colorPrimary));
     }
 }
